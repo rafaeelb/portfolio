@@ -25,7 +25,7 @@ body{
 }
 
 header{
-    border: solid red 1px;
+    border: solid rgb(0, 0, 0) 1px;
     background-color: rgb(145, 145, 145);
 }
 
@@ -81,7 +81,7 @@ header{
 
 .sobre p{
     margin-top: 50px;
-    max-width: 25%;
+    max-width: 50%;
     text-align: justify;
     font-size: 20px;
 }
@@ -101,4 +101,5 @@ header{
 
 .informacoes a:hover{
     color: rgb(33, 118, 230);
+    transition: 0.4s;
 }
