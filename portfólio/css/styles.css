@@ -31,7 +31,7 @@ header{
 
 .nav-list{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     margin: 20px;
     height: 10vh;
@@ -51,7 +51,7 @@ header{
 
 .nav-list li a:hover{
     color: white;
-    transition: 0.4s;
+    transition: 0.4s ease;
 }
 .container{
     display: flex;
@@ -102,4 +102,25 @@ header{
 .informacoes a:hover{
     color: rgb(33, 118, 230);
     transition: 0.4s ease;
+}
+
+.habilidades{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.habilidades h1{
+    font-size: 30px;
+}
+
+.icons{
+    font-size: 80px;
+    margin: 20px;
+}
+
+.icons i{
+    margin: 20px;
 }
