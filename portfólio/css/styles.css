@@ -29,9 +29,23 @@ header{
     background-color: rgb(145, 145, 145);
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: white;
+    transition: 0.4s ease;
+}
+
+h1{
+    font-size: 40px;
+}
+
 .nav-list{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     margin: 20px;
     height: 10vh;
@@ -44,15 +58,6 @@ header{
     font-size: 20px;
 }
 
-.nav-list li a{
-    text-decoration: none;
-    color: black;
-}
-
-.nav-list li a:hover{
-    color: white;
-    transition: 0.4s ease;
-}
 .container{
     display: flex;
     justify-content: center;
@@ -112,15 +117,57 @@ header{
     margin-top: 10%;
 }
 
-.habilidades h1{
-    font-size: 30px;
+.container-icones{
+    display: flex;
+    /* border: solid green 1px; */
+    justify-content: space-around;
+    margin-top: 35px;
 }
-
 .icons{
-    font-size: 80px;
-    margin: 20px;
+    font-size: 130px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid blue 1px; */
 }
 
 .icons i{
-    margin: 20px;
+    margin: 10px;
+}
+.icons p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.icons .estrela{
+    display: flex;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.icons img{
+    margin-top: 10px;
+    height: 125px;
+    margin-bottom:15px;
+}
+.estrela{
+    /* border: solid red 1px; */
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.projetos{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.rodape{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: flex-end;
+    font-size: 20px;
 }
