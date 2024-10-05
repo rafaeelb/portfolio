@@ -123,6 +123,7 @@ h1{
     justify-content: space-around;
     margin-top: 35px;
 }
+
 .icons{
     font-size: 100px;
     margin: 25px;
@@ -157,12 +158,45 @@ h1{
 }
 
 .projetos{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     margin-top: 10%;
     margin-bottom: 10%;
+    align-items: center;
 }
 
+.projetos h3{
+    margin-top: 5%;
+    font-size: 25px;
+}
 
+.titulo{
+    /* border: solid red 1px; */
+    width: 100%;
+    text-align: center;
+    height: 15vh;
+    background-color: gray;
+}
+
+.titulo h1{
+    /* border: solid blue 1px; */
+    position: relative;
+    top: 40px;
+}
+.projetos p{
+    margin-top: 20px;
+    max-width: 20%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.projetos span{
+    font-size: 20px;
+}
+
+.projetos img{
+    width: 700px;
+}
 .rodape{
     background-color: gray;
     display: flex;
