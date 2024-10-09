@@ -120,18 +120,21 @@ h1{
     justify-content: center;
     flex-direction:column;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 15%;
+    margin-bottom: 20%;
 }
-#habilidades h1{
+
+.habilidades h1{
     margin-bottom: 5%;
 }
 
 .container-icones{
     display: flex;
     /* border: solid green 1px; */
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 35px;
     flex-wrap: wrap;
+    max-width: 65%;
 }
 
 .icons{
@@ -140,6 +143,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
     /* border: solid blue 1px; */
 }
 
@@ -273,4 +277,4 @@ h1{
         
     }
     
-}
+
