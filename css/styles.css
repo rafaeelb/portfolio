@@ -25,8 +25,8 @@ body{
 }
 
 header{
-    border: solid rgb(0, 0, 0) 1px;
-    background-color: rgb(145, 145, 145);
+    /* border: solid rgb(0, 0, 0) 1px; */
+    background-color: rgb(189, 187, 187);
 }
 
 a{
@@ -35,7 +35,7 @@ a{
 }
 
 a:hover{
-    color: white;
+    color: rgb(255,255,255);
     transition: 0.4s ease;
 }
 
@@ -47,8 +47,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
-    height: 10vh;
+    height: 20vh;
 }
 
 .nav-list li{
@@ -71,10 +70,11 @@ h1{
     width: 300px;
     border-radius: 120px;
     margin-bottom: 40px;
+    box-shadow: 1px 2px 11px 0px;
 }
 
 .sobre{
-    margin-top: 10%;
+    margin-top: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,7 +114,10 @@ h1{
     justify-content: center;
     flex-direction:column;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 20%;
+}
+#habilidades h1{
+    margin-bottom: 5%;
 }
 
 .container-icones{
@@ -123,9 +126,10 @@ h1{
     justify-content: space-around;
     margin-top: 35px;
 }
+
 .icons{
-    font-size: 130px;
-    margin: 25px;
+    font-size: 80px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,18 +140,18 @@ h1{
     margin: 10px;
 }
 .icons p{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 .icons .estrela{
     display: flex;
-    font-size: 25px;
+    font-size: 15px;
     margin-top: 20px;
 }
 .icons img{
     margin-top: 10px;
-    height: 125px;
-    margin-bottom:15px;
+    height: 90px;
+    margin-bottom:0px;
 }
 .estrela{
     /* border: solid red 1px; */
@@ -157,14 +161,49 @@ h1{
 }
 
 .projetos{
-    text-align: center;
-    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
     margin-bottom: 10%;
+    align-items: center;
 }
 
+.projetos h2{
+    margin-top: 10%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
+.titulo{
+    /* border: solid red 1px; */
+    width: 100%;
+    text-align: center;
+    height: 20vh;
+    background-color: rgb(189, 187, 187);;
+}
+
+.titulo h1{
+    /* border: solid blue 1px; */
+    position: relative;
+    top: 60px;
+}
+.projetos p{
+    margin-top: 20px;
+    max-width: 50%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.projetos span{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.projetos img{
+    width: 700px;
+}
 .rodape{
-    background-color: gray;
+   background-color: rgb(189, 187, 187);
     display: flex;
     justify-content: space-between;
     height: 20vh;
