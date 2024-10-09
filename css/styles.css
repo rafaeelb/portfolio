@@ -250,8 +250,27 @@ h1{
 
     .titulo h1{
         position: relative;
-        top: 20px;
+        top: 30px;
         font-size: 30px;
+    }
+
+    .projetos h2{
+        margin-top: 100px;
+    }
+
+    .projetos span{
+        font-size: 20px;
+    }
+
+    .projetos img{
+        width: 90%;
+    }
+
+    .rodape p{
+        font-size: 14px;
+        max-width: 75%; 
+    }
+        
     }
     
 }
