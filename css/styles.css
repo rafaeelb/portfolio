@@ -1,15 +1,3 @@
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700 */
-
-/* .fredoka-<uniquifier> {
-  font-family: "Fredoka", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-} */
-
 *{
     margin: 0;
     padding: 0;
@@ -29,7 +17,6 @@ img{
     max-width: 100%;
 }
 header{
-    /* border: solid rgb(0, 0, 0) 1px; */
     background-color: rgb(189, 187, 187);
 }
 
@@ -56,8 +43,7 @@ h1{
 }
 
 .nav-list li{
-    list-style: none;
-    /* margin-left: 30px; */
+    list-style: none;   
     margin: 20px;
     font-size: 20px;
 }
@@ -130,7 +116,6 @@ h1{
 
 .container-icones{
     display: flex;
-    /* border: solid green 1px; */
     justify-content: space-evenly;
     margin-top: 35px;
     flex-wrap: wrap;
@@ -144,7 +129,6 @@ h1{
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    /* border: solid blue 1px; */
 }
 
 .icons i{
@@ -153,6 +137,7 @@ h1{
 .icons p{
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 .icons .estrela{
     display: flex;
@@ -164,7 +149,6 @@ h1{
  width: 100%;
 }
 .estrela{
-    /* border: solid red 1px; */
     display: flex;
     align-items: center;
     margin-top: 5%;
@@ -185,7 +169,6 @@ h1{
 }
 
 .titulo{
-    /* border: solid red 1px; */
     width: 100%;
     text-align: center;
     height: 20vh;
@@ -193,7 +176,6 @@ h1{
 }
 
 .titulo h1{
-    /* border: solid blue 1px; */
     position: relative;
     top: 60px;
 }
@@ -217,9 +199,14 @@ h1{
    background-color: rgb(189, 187, 187);
     display: flex;
     justify-content: space-between;
-    height: 20vh;
+    height: 30vh;
     align-items: flex-end;
     font-size: 20px;
+}
+
+.rodape a i{
+    font-size: 50px;
+
 }
 
 @media screen and (max-width:480px) {
@@ -233,6 +220,7 @@ h1{
 
     .foto img{
         width: 200px;
+        border-radius: 80px;
     }
 
     .informacoes{
@@ -276,5 +264,3 @@ h1{
     }
         
     }
-    
-
