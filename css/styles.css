@@ -168,6 +168,12 @@ h1{
     margin-bottom: 20px;
 }
 
+video{
+    border-radius: 35px; 
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    width: 808px;
+}
+
 .titulo{
     width: 100%;
     text-align: center;
@@ -299,9 +305,33 @@ h1{
         width: 90%;
     }
 
+    .projetos .github-link{
+        font-size: 15px;
+    }
+    .rodape .github-link{
+        font-size: 15px;
+    }
+
+    .rodape a i{
+        font-size: 30px;
+    }
+
     .rodape p{
         font-size: 14px;
         max-width: 75%; 
     }
-        
+     video{
+        width: 400px;
+     }
+
+    }
+
+    @media screen and (max-width: 768px) {
+        video{
+            width: 500px;
+        }
+
+        .projetos img{
+            width: 500px;
+        }
     }
