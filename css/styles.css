@@ -179,6 +179,11 @@ h1{
     position: relative;
     top: 60px;
 }
+
+.projetos h3{
+    margin-top: 30px;
+    font-size: 30px;
+}
 .projetos p{
     margin-top: 20px;
     max-width: 50%;
@@ -191,10 +196,36 @@ h1{
     margin-bottom: 15px;
 }
 
+.projetos i, a{
+    font-size: 30px;
+    margin-top: 30px;
+    margin: 15px;
+}
+
+.projetos a:hover{
+    color: rgb(33, 118, 230);
+}
+
 .projetos img{
     width: 100%;
     max-width: 700px;
 }
+
+.github-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    /* border: 2px solid #0366d6; */
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.github-link:hover {
+    color: #fff;
+}
+
 .rodape{
    background-color: rgb(189, 187, 187);
     display: flex;
@@ -206,7 +237,15 @@ h1{
 
 .rodape a i{
     font-size: 50px;
+}
 
+.rodape a:hover{
+    color: rgb(33, 118, 230);
+}
+
+.rodape p{
+    margin-bottom: 15px;
+    font-size: 25px;
 }
 
 @media screen and (max-width:480px) {
@@ -224,7 +263,7 @@ h1{
     }
 
     .informacoes{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .sobre h1{
